@@ -9,8 +9,7 @@
     <form action="processa.php" method="post">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome"><br>
-        <label for="mensagem">mensagem:</label>
-        <input type= "text" id="mensagem" name="mensagem"><br>
+
         <button type="submit">Enviar</button>
     </form>
 </body>
