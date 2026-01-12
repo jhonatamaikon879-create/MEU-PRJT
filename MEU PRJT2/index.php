@@ -7,13 +7,13 @@
 </head>
 <body>
     <form action="resultado.php" method="POST">
-        <label for="name">nome</label>
-        <imput for="text" id="nome" name="nome" required><br></imput>
-        <label for="idade">idade</label>
-        <imput for="number" id="idade" name="idade" required><br></imput>
-        <label for="nota">nota</label>
-        <imput for="number" id="nota" name="nota" required><br></imput>
-         <button type="submit">Enviar</button>
+      <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required><br><br>
+            <label for="nota">Nota final (0 a 10):</label>
+            <input type="number" id="nota" name="nota" min="0" max="10" required><br><br>
+            <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
