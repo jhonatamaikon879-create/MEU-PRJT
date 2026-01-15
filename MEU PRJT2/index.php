@@ -14,6 +14,7 @@
             <label for="nota">Nota final (0 a 10):</label>
             <input type="number" id="nota" name="nota" min="0" max="10" required><br><br>
             <input type="submit" value="Enviar">
+       
     </form>
 </body>
 </html>
